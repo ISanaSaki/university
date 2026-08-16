@@ -1,0 +1,49 @@
+نسخه نهایی پروژه انتخاب واحد دانشگاهی
+
+1) models
+- Person کلاس پایه است.
+- Student و Professor از Person ارث‌بری می‌کنند.
+- Course مستقل است و ارتباط دوطرفه با Student و Professor دارد.
+
+2) schemas
+- Create و Update برای اعتبارسنجی ورودی‌ها با Pydantic.
+- Response Model برای کنترل خروجی APIها اضافه شده است.
+
+3) data/storage.py
+- داده‌ها در فایل‌های JSON نگه‌داری می‌شوند.
+- load_all هنگام شروع برنامه object referenceها را بازسازی و referenceهای خراب را حذف می‌کند.
+- save_all با نوشتن atomic احتمال خراب شدن فایل هنگام ذخیره را کاهش می‌دهد.
+
+4) services
+- CRUD دانشجو، استاد و درس.
+- انتخاب و حذف درس.
+- تخصیص استاد به درس.
+- هنگام حذف موجودیت‌ها referenceهای سمت مقابل هم پاک می‌شوند.
+- هنگام تخصیص استاد جدید، ارتباط استاد قبلی حذف می‌شود.
+
+5) exceptions
+- همه خطاهای سفارشی از CourseSelectionException ارث‌بری می‌کنند.
+- status_code مناسب روی هر استثنا تعریف شده و در main.py به HTTP response تبدیل می‌شود.
+
+6) routers
+- /students
+- /professors
+- /courses
+- /selection
+- برای endpointها response_model تعریف شده است.
+
+7) main.py
+- lifespan: load در startup و save در shutdown.
+- /summary: خلاصه آماری کل سیستم.
+- /data: همه دانشجویان، اساتید و دروس در یک API.
+- exception handler مرکزی برای خطاهای پروژه و خطاهای validation.
+
+8) Frontend
+- ۵ صفحه: داشبورد، دانشجویان، اساتید، دروس، انتخاب واحد.
+- CRUD از طریق Modal انجام می‌شود.
+- تخصیص استاد در صفحه دروس انجام می‌شود.
+- خطاهای واقعی بک‌اند به زبان قابل فهم در Toast نمایش داده می‌شوند.
+
+9) تست
+- pytest API tests در backend/tests/test_api.py قرار دارد.
+- دستور اجرا: pytest -q

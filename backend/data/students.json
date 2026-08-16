@@ -1,0 +1,42 @@
+{
+  "40311415278": {
+    "national_id": "4061587799",
+    "first_name": "سارا",
+    "last_name": "رضایی",
+    "student_number": "40311415278",
+    "major": "12",
+    "selected_courses": []
+  },
+  "40311415076": {
+    "national_id": "4061566067",
+    "first_name": "شقایق",
+    "last_name": "علیپوریان",
+    "student_number": "40311415076",
+    "major": "مهندسی کامپیوتر",
+    "selected_courses": []
+  },
+  "4061685792": {
+    "national_id": "40311415076",
+    "first_name": "شقایق خانم",
+    "last_name": "علیپوریان",
+    "student_number": "4061685792",
+    "major": "مهندسی معماری",
+    "selected_courses": []
+  },
+  "40311415056": {
+    "national_id": "4061689955",
+    "first_name": "حسین",
+    "last_name": "محمدی کیا",
+    "student_number": "40311415056",
+    "major": "مهندسی کامپیوتر",
+    "selected_courses": []
+  },
+  "1245781245": {
+    "national_id": "406558877",
+    "first_name": "ییی",
+    "last_name": "ییی",
+    "student_number": "1245781245",
+    "major": "ییییی",
+    "selected_courses": []
+  }
+}

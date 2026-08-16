@@ -1,0 +1,11 @@
+{
+  "C001": {
+    "course_id": "C001",
+    "title": "برنامه نویسی پیشرفته",
+    "code": "CS301",
+    "unit": 3,
+    "capacity": 30,
+    "professor": "11415268",
+    "students": []
+  }
+}
