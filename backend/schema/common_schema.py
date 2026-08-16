@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from schemas.course_schema import CourseResponse
 from schemas.professor_schema import ProfessorResponse
@@ -6,17 +6,17 @@ from schemas.student_schema import StudentResponse
 
 
 class MessageResponse(BaseModel):
-    message: str
+    message: str = Field(..., min_length=1)
 
 
 class SummaryResponse(BaseModel):
-    students_count: int
-    professors_count: int
-    courses_count: int
-    selections_count: int
-    assigned_courses_count: int
-    total_capacity: int
-    remaining_capacity: int
+    students_count: int = Field(ge=0)
+    professors_count: int = Field(ge=0)
+    courses_count: int = Field(ge=0)
+    selections_count: int = Field(ge=0)
+    assigned_courses_count: int = Field(ge=0)
+    total_capacity: int = Field(ge=0)
+    remaining_capacity: int = Field(ge=0)
 
 
 class AllDataResponse(BaseModel):

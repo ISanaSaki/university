@@ -1,42 +1,92 @@
 {
-  "40311415278": {
-    "national_id": "4061587799",
-    "first_name": "سارا",
-    "last_name": "رضایی",
-    "student_number": "40311415278",
-    "major": "12",
-    "selected_courses": []
-  },
   "40311415076": {
     "national_id": "4061566067",
     "first_name": "شقایق",
     "last_name": "علیپوریان",
     "student_number": "40311415076",
     "major": "مهندسی کامپیوتر",
-    "selected_courses": []
+    "selected_courses": [
+      "C001"
+    ]
   },
-  "4061685792": {
-    "national_id": "40311415076",
-    "first_name": "شقایق خانم",
-    "last_name": "علیپوریان",
-    "student_number": "4061685792",
-    "major": "مهندسی معماری",
-    "selected_courses": []
-  },
-  "40311415056": {
-    "national_id": "4061689955",
-    "first_name": "حسین",
-    "last_name": "محمدی کیا",
-    "student_number": "40311415056",
+  "40311415011": {
+    "national_id": "4061597584",
+    "first_name": "ثنا",
+    "last_name": "ساکی",
+    "student_number": "40311415011",
     "major": "مهندسی کامپیوتر",
     "selected_courses": []
   },
-  "1245781245": {
-    "national_id": "406558877",
-    "first_name": "ییی",
-    "last_name": "ییی",
-    "student_number": "1245781245",
-    "major": "ییییی",
+  "40311415071": {
+    "national_id": "4061587791",
+    "first_name": "اسرا",
+    "last_name": "رحیمی",
+    "student_number": "40311415071",
+    "major": "مهندسی کامپیوتر",
     "selected_courses": []
+  },
+  "40311415278": {
+    "national_id": "4061566062",
+    "first_name": "رویا",
+    "last_name": "رضایی",
+    "student_number": "40311415278",
+    "major": "مهندسی برق",
+    "selected_courses": [
+      "C001"
+    ]
+  },
+  "40311415055": {
+    "national_id": "4061587794",
+    "first_name": "امین",
+    "last_name": "احمدی",
+    "student_number": "40311415055",
+    "major": "مهندسی مکانیک",
+    "selected_courses": []
+  },
+  "40311415012": {
+    "national_id": "4061587762",
+    "first_name": "ارمیتا",
+    "last_name": "شفیعی",
+    "student_number": "40311415012",
+    "major": "مهندسی صنایع",
+    "selected_courses": []
+  },
+  "40311415025": {
+    "national_id": "4061597785",
+    "first_name": "علی",
+    "last_name": "زارعی",
+    "student_number": "40311415025",
+    "major": "مهندسی هوافضا",
+    "selected_courses": [
+      "C001"
+    ]
+  },
+  "40311415068": {
+    "national_id": "4061587757",
+    "first_name": "شقایق",
+    "last_name": "رحیمی",
+    "student_number": "40311415068",
+    "major": "مهندسی شیمی",
+    "selected_courses": [
+      "C001"
+    ]
+  },
+  "40311415075": {
+    "national_id": "2045689971",
+    "first_name": "جواد",
+    "last_name": "کوگانی",
+    "student_number": "40311415075",
+    "major": "شیمی محض",
+    "selected_courses": []
+  },
+  "40311415079": {
+    "national_id": "4061589978",
+    "first_name": "متین",
+    "last_name": "هاشمی",
+    "student_number": "40311415079",
+    "major": "مهندسی عمران",
+    "selected_courses": [
+      "C001"
+    ]
   }
 }
